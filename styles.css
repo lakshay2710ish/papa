@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-image: url('./1.jpeg'); /* Replace with your image path */
+    background-size: contain;
+    background-position: center;
+    color: white; /* Change text color for better visibility */
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better readability */
+    padding: 20px;
+    border-radius: 10px;
+    margin-left:10px;
+    margin-right: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    line-height: 1.5;
+}
+
+.message {
+    font-size: 2em;
+}
+
+.sub-message {
+    font-size: 1.2em;
+}
